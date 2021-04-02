@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<!-- define an ament package -->
+<package format="3">
+
+  <!-- The following five tags define required package metadata -->
+  <name>hello_world</name>
+  <version>0.0.0</version>
+  <description>TODO</description>
+  <maintainer email="todo@example.com">TODO</maintainer>
+  <license>TODO</license>
+
+  <!-- Packages that are needed to build this package -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Packages that are needed to build and run this package -->
+  <depend>rclcpp</depend>
+
+  <export>
+    <!-- This tag is used by several tools to determine how to handle the package. -->
+    <build_type>ament_cmake</build_type>
+    <!-- Other advanced features can be enabled here -->
+  </export>
+</package>
